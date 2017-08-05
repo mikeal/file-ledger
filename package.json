@@ -1,0 +1,33 @@
+{
+  "name": "file-ledger",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "tap test/test-*.js --100",
+    "posttest": "standard",
+    "coverage": "tap test/test-*.js --coverage-report=lcov",
+    "postcoverage": "codecov",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "validate-commit-msg"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "contentfs": "^2.0.2"
+  },
+  "devDependencies": {
+    "abstract-ledger": "^2.1.0",
+    "codecov": "^2.3.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.14.3",
+    "lucass": "^4.0.0",
+    "standard": "^10.0.2",
+    "tap": "^10.7.1",
+    "validate-commit-msg": "^2.14.0"
+  }
+}

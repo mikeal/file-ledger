@@ -21,16 +21,16 @@
     "contentfs": "^2.0.3"
   },
   "devDependencies": {
-    "abstract-ledger": "^2.1.0",
+    "abstract-ledger": "^2.1.1",
     "codecov": "^2.3.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
     "lucass": "^4.0.0",
+    "semantic-release": "^6.3.6",
     "standard": "^10.0.2",
     "tap": "^10.7.1",
-    "validate-commit-msg": "^2.14.0",
-    "semantic-release": "^6.3.6"
+    "validate-commit-msg": "^2.14.0"
   },
   "repository": {
     "type": "git",
